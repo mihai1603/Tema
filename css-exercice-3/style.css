@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  width: 413px;
+  height: 206px;
+  margin: 50px;
+  border-radius: 16px;
+  padding: 24px 32px;
+  background-color: #3e3737;
+}
+img {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.nume {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 11px;
+}
+.job {
+  font-weight: 400;
+  font-size: 16px;
+  color: #d1c8c8;
+  margin-top: 11px;
+  font-style: italic;
+}
+.ani_activitate {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 19px;
+  font-style: italic;
+  text-align: end;
+}
